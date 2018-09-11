@@ -1,0 +1,65 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Lora', serif;
+  color: rgb(56, 56, 56);
+  padding-bottom: 40px; 
+}
+
+.App-header {
+  background: url('./photos/cover.jpg') no-repeat center center;
+  background-size:100%;
+  height: 500px; 
+  text-align: center;
+  
+}
+
+.App-title {
+  font-family: 'Cormorant', serif;
+  font-size: 65px; 
+  font-weight: lighter;
+  color: rgb(56, 56, 56); 
+  margin: 0 auto;
+  padding-top: 40px;  
+  letter-spacing: 3px;
+}
+
+.App-title-sub {
+  font-family: 'Cormorant', serif;
+  font-size: 30px; 
+  font-weight: lighter;
+  font-style: italic; 
+ 
+}
+
+.About, .Contact {
+  width: 70%; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.header {
+  text-align: center;
+  font-size: 22px; 
+}
+
+.Values {
+  padding-top: 20px; 
+  text-align: center;
+  font-size: 24px; 
+}
+
+.italic {
+  font-style: italic;
+}
+
+.Footer {
+  height: 40px; 
+}
+
+.contact-items {
+  width: 30%; 
+  margin: 0 auto; 
+}
